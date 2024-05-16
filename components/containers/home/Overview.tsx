@@ -5,6 +5,8 @@ import two from "@/public/images/overview/two.png";
 import three from "@/public/images/overview/three.png";
 import four from "@/public/images/overview/four.png";
 import five from "@/public/images/overview/five.png";
+import six from "@/public/images/overview/six.png";
+
 
 const Overview = () => {
   return (
@@ -35,6 +37,54 @@ const Overview = () => {
           <div className="col-12 col-lg-7 col-xxl-6 offset-xxl-1">
             <div className="tp-overview__items sticky-item">
             <div className="tp-overview-single appear-down">
+                <div className="thumb">
+                  <Image src={one} alt="Image" />
+                </div>
+                <div className="wrapper">
+                  <div className="content">
+                    <h4 className="mt-8 mb-12 fw-6 text-secondary">
+                      <Link href="service-single">Artificial Intelligence</Link>
+                    </h4>
+                    <p className="text-tertiary">
+                      Unlock The Potential Of Artificial Intelligence With DecaSync.
+                      Our AI Solutions Are Meticulously Crafted To Transform Data 
+                      Into Actionable Insights,Driving Innovation And Efficiency.
+                    </p>
+                  </div>
+                  <div className="cta">
+                    <Link href="service-single">
+                      <span className="material-symbols-outlined">
+                        call_made
+                      </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="tp-overview-single appear-down">
+                <div className="thumb">
+                  <Image src={six} alt="Image" style={{ width: '126px', height: '126px' }} />
+                </div>
+                <div className="wrapper">
+                  <div className="content">
+                    <h4 className="mt-8 mb-12 fw-6 text-secondary">
+                      <Link href="service-single">Machine Learning</Link>
+                    </h4>
+                    <p className="text-tertiary">
+                      Unlock The Potential Of Artificial Intelligence With DecaSync.
+                      Our AI Solutions Are Meticulously Crafted To Transform Data 
+                      Into Actionable Insights,Driving Innovation And Efficiency.
+                    </p>
+                  </div>
+                  <div className="cta">
+                    <Link href="service-single">
+                      <span className="material-symbols-outlined">
+                        call_made
+                      </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="tp-overview-single appear-down">
                 <div className="thumb">
                   <Image src={four} alt="Image" />
                 </div>
@@ -86,18 +136,16 @@ const Overview = () => {
               </div>
               <div className="tp-overview-single appear-down">
                 <div className="thumb">
-                  <Image src={two} alt="Image" />
+                  <Image src={five} alt="Image" />
                 </div>
                 <div className="wrapper">
                   <div className="content">
                     <h4 className="mt-8 mb-12 fw-6 text-secondary">
-                      <Link href="service-single">Product Design</Link>
+                      <Link href="service-single">Digital Marketing</Link>
                     </h4>
                     <p className="text-tertiary">
-                      Elevate Your Products With DecaSync&apos;s Innovative Design
-                       Approach.From Conceptualization To Realization,We Sync 
-                       Aesthetics With Functionality,Creating Products
-                       That Stand Out In The Market.
+                      Dive Into Idea Evaluation And Witness The
+                     Transformation Of Your Concepts Into Revolutionary Solutions.
                     </p>
                   </div>
                   <div className="cta">
@@ -111,17 +159,18 @@ const Overview = () => {
               </div>
               <div className="tp-overview-single appear-down">
                 <div className="thumb">
-                  <Image src={one} alt="Image" />
+                  <Image src={two} alt="Image" />
                 </div>
                 <div className="wrapper">
                   <div className="content">
                     <h4 className="mt-8 mb-12 fw-6 text-secondary">
-                      <Link href="service-single">Artificial Intelligence</Link>
+                      <Link href="service-single">Product Design & Development</Link>
                     </h4>
                     <p className="text-tertiary">
-                      Unlock The Potential Of Artificial Intelligence With DecaSync.
-                      Our AI Solutions Are Meticulously Crafted To Transform Data 
-                      Into Actionable Insights,Driving Innovation And Efficiency.
+                      Elevate Your Products With DecaSync&apos;s Innovative Design
+                       Approach.From Conceptualization To Realization,We Sync 
+                       Aesthetics With Functionality,Creating Products
+                       That Stand Out In The Market.
                     </p>
                   </div>
                   <div className="cta">
