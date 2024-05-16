@@ -1,0 +1,40 @@
+{
+  "name": "Decasync",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.27",
+    "bootstrap": "^5.3.2",
+    "framer-motion": "^10.16.5",
+    "gsap": "^3.12.2",
+    "next": "14.0.2",
+    "react": "^18",
+    "react-animate-height": "^3.2.3",
+    "react-dom": "^18",
+    "react-intersection-observer": "^9.5.3",
+    "react-modal-video": "^2.0.1",
+    "react-odometerjs": "^3.1.0",
+    "react-photo-album": "^2.3.0",
+    "sass": "^1.69.5",
+    "sharp": "^0.32.6",
+    "split-type": "^0.3.4",
+    "swiper": "^11.0.4",
+    "vanilla-tilt": "^1.8.1",
+    "yet-another-react-lightbox": "^3.15.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-modal-video": "^1.2.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.2",
+    "typescript": "^5"
+  }
+}
