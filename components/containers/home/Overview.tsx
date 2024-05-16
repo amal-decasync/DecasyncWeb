@@ -6,6 +6,7 @@ import three from "@/public/images/overview/three.png";
 import four from "@/public/images/overview/four.png";
 import five from "@/public/images/overview/five.png";
 import six from "@/public/images/overview/six.png";
+import seven from "@/public/images/overview/seven.png";
 
 
 const Overview = () => {
@@ -136,12 +137,12 @@ const Overview = () => {
               </div>
               <div className="tp-overview-single appear-down">
                 <div className="thumb">
-                  <Image src={five} alt="Image" />
+                  <Image src={seven} alt="Image"  style={{width:'90px;', height:'90px;'}}/>
                 </div>
                 <div className="wrapper">
                   <div className="content">
                     <h4 className="mt-8 mb-12 fw-6 text-secondary">
-                      <Link href="service-single">Digital Marketing</Link>
+                      <Link href="service-single">Digital Marketing & SEO</Link>
                     </h4>
                     <p className="text-tertiary">
                       Dive Into Idea Evaluation And Witness The
