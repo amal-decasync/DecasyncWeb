@@ -40,7 +40,7 @@ const Testimonial = () => {
               }
             >
               <h2 className="fw-7 text-secondary mt-8 title-anim">
-                Innovation In Sync:Client Testimonials
+                Client Testimonials
               </h2>
               <div className="tp-testimonial-slider-wrap mt-60">
                 <Swiper

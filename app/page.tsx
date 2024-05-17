@@ -17,7 +17,7 @@ const page = () => {
       <main>
         <Banner />
         <Overview />
-        <Story />
+        {/* <Story /> */}
         <Testimonial />
         <ServiceIntro />
         <LatestPost />
