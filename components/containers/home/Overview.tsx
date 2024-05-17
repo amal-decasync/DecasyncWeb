@@ -47,9 +47,9 @@ const Overview = () => {
                       <Link href="service-single">Artificial Intelligence</Link>
                     </h4>
                     <p className="text-tertiary">
-                      Unlock The Potential Of Artificial Intelligence With DecaSync.
-                      Our AI Solutions Are Meticulously Crafted To Transform Data 
-                      Into Actionable Insights,Driving Innovation And Efficiency.
+                    Unlock AI potential with DecaSync.Transform data into actionable insights,
+                    providing cutting-edge AI and ML empowerment. Explore the future of intelligent technology with DecaSync,
+                    your AI partner. Elevate organization capabilities with tailored solutions and stay ahead in the era of innovation.
                     </p>
                   </div>
                   <div className="cta">
@@ -71,9 +71,9 @@ const Overview = () => {
                       <Link href="service-single">Machine Learning</Link>
                     </h4>
                     <p className="text-tertiary">
-                      Unlock The Potential Of Artificial Intelligence With DecaSync.
-                      Our AI Solutions Are Meticulously Crafted To Transform Data 
-                      Into Actionable Insights,Driving Innovation And Efficiency.
+                    DecaSync specializes in Machine Learning solutions that unlock the power of artificial intelligence.
+                    Our meticulously crafted algorithms transform data into actionable insights,
+                    driving innovation and efficiency for your business.
                     </p>
                   </div>
                   <div className="cta">
@@ -144,9 +144,9 @@ const Overview = () => {
                     <h4 className="mt-8 mb-12 fw-6 text-secondary">
                       <Link href="service-single">Digital Marketing & SEO</Link>
                     </h4>
-                    <p className="text-tertiary">
-                      Dive Into Idea Evaluation And Witness The
-                     Transformation Of Your Concepts Into Revolutionary Solutions.
+                    <p className="text-tertiary">Transform your online presence with DecaSync's Digital Marketing and SEO solutions. 
+                    We'll boost your visibility, attract targeted traffic, and increase your ROI. 
+                    Let's supercharge your brand's digital journey together.
                     </p>
                   </div>
                   <div className="cta">
@@ -168,10 +168,9 @@ const Overview = () => {
                       <Link href="service-single">Product Design & Development</Link>
                     </h4>
                     <p className="text-tertiary">
-                      Elevate Your Products With DecaSync&apos;s Innovative Design
-                       Approach.From Conceptualization To Realization,We Sync 
-                       Aesthetics With Functionality,Creating Products
-                       That Stand Out In The Market.
+                      At DecaSync, we excel in product design and development. From concept to creation, 
+                      we blend creativity and functionality to bring your vision to life. 
+                      Let's innovate together for standout products that captivate your audience.
                     </p>
                   </div>
                   <div className="cta">
