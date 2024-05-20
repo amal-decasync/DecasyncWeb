@@ -29,11 +29,7 @@ const AboutService = () => {
                 Who we are
               </h2>
               <p className="cur-lg">
-                Lorem ipsum dolor sit amet consectetur. Rhoncus turpis in
-                placerat faucibus dignissim. Ac nisl varius rutrum tempus turpis
-                duis ut ut tristique. Morbi netus pulvinar vitae malesuada.
-                Dapibus commodo aliquam quis sit, Morbi netus pulvinar vitae
-                malesuada. Dapibus commodo aliquam quis sit.
+              DecaSync Innovations is an IT leader in consulting and deploying top-tier business solutions globally, optimizing efficiency, and driving growth. Your trusted partner for innovation and success in the digital era.
               </p>
               <div className="mt-40">
                 <Link href="service-single" className="btn-line">
