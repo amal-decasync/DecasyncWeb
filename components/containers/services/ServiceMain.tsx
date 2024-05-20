@@ -1,10 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import four from "@/public/images/service/four.png";
-import five from "@/public/images/service/five.png";
-import six from "@/public/images/service/six.png";
-import seven from "@/public/images/service/seven.png";
-import eight from "@/public/images/service/eight.png";
+import four from "@/public/images/sample/service7.png"
+// import four from "@/public/images/service/four.png";
+import five from "@/public/images/sample/service8.png";
+// import five from "@/public/images/service/five.png";
+import six from "@/public/images/sample/service9.png";
+// import six from "@/public/images/service/six.png";
+import seven from "@/public/images/sample/service10.png";
+// import seven from "@/public/images/service/seven.png";
+import eight from "@/public/images/sample/service11.png";
+// import eight from "@/public/images/service/eight.png";
 
 const ServiceMain = () => {
   return (
