@@ -10,6 +10,7 @@ import three from "@/public/images/sponsor/three.png";
 import four from "@/public/images/sponsor/four.png";
 import five from "@/public/images/sponsor/five.png";
 import six from "@/public/images/sponsor/six.png";
+import seven from "@/public/images/logods.png";
 
 const Sponsor = () => {
   const pathname = usePathname();
@@ -52,62 +53,62 @@ const Sponsor = () => {
         >
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={one} alt="Image" />
+              <Image src={seven} alt="Image" style={{ width: '100px', height: '50px', objectFit: 'contain' }}/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={two} alt="Image" />
+              <Image src={seven} alt="Image"  style={{ width: '100px', height: '50px', objectFit: 'contain' }} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={three} alt="Image" />
+              <Image src={seven} alt="Image"  style={{ width: '100px', height: '50px', objectFit: 'contain' }} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={four} alt="Image" />
+              <Image src={seven} alt="Image"  style={{ width: '100px', height: '50px', objectFit: 'contain' }}/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={five} alt="Image" />
+              <Image src={seven} alt="Image" style={{ width: '100px', height: '50px', objectFit: 'contain' }} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={six} alt="Image" />
+              <Image src={seven} alt="Image" style={{ width: '100px', height: '50px', objectFit: 'contain' }}/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={one} alt="Image" />
+              <Image src={seven} alt="Image"  style={{ width: '100px', height: '50px', objectFit: 'contain' }}/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={two} alt="Image" />
+              <Image src={seven} alt="Image" style={{ width: '100px', height: '50px', objectFit: 'contain' }} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={three} alt="Image" />
+              <Image src={seven} alt="Image" style={{ width: '100px', height: '50px', objectFit: 'contain' }}/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={four} alt="Image" />
+              <Image src={seven} alt="Image" style={{ width: '100px', height: '50px', objectFit: 'contain' }}/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={five} alt="Image" />
+              <Image src={seven} alt="Image" style={{ width: '100px', height: '50px', objectFit: 'contain' }}/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="sponsor__single text-center">
-              <Image src={six} alt="Image" />
+              <Image src={seven} alt="Image" style={{ width: '100px', height: '50px', objectFit: 'contain' }}/>
             </div>
           </SwiperSlide>
         </Swiper>
