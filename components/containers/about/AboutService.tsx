@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import thumb from "@/public/images/service/two.png";
+import thumb from "@/public/images/service/two.gif";
 import thumbTwo from "@/public/images/service/three.png";
 
 const AboutService = () => {
@@ -46,11 +46,8 @@ const AboutService = () => {
                 How we work
               </h2>
               <p className="cur-lg">
-                Lorem ipsum dolor sit amet consectetur. Rhoncus turpis in
-                placerat faucibus dignissim. Ac nisl varius rutrum tempus turpis
-                duis ut ut tristique. Morbi netus pulvinar vitae malesuada.
-                Dapibus commodo aliquam quis sit, Morbi netus pulvinar vitae
-                malesuada. Dapibus commodo aliquam quis sit.
+              At Decasync Innovations, we are driven by innovation and dedication to delivering exceptional software solutions.
+              Our approach to work is founded on efficiency, collaboration, and a commitment to excellence.
               </p>
               <div className="mt-40">
                 <Link href="service-single" className="btn-line">
