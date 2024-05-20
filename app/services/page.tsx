@@ -16,7 +16,7 @@ const page = () => {
       <main>
         <ServiceBanner />
         <ServiceMain />
-        <Sponsor />
+        {/* <Sponsor /> */}
         <ServiceGallery />
         <Testimonial />
       </main>
