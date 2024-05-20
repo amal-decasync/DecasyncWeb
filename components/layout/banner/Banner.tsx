@@ -77,42 +77,51 @@ const Banner = () => {
           </div> */}
         </div>
         <ul className="social">
-          <li>
+        <li>
             <Link
-              href="https://www.facebook.com/"
+              href="https://in.linkedin.com/company/decasync-innovations-pvt-ltd"
               target="_blank"
-              aria-label="share us on facebook"
-            >
-              <i className="fa-brands fa-facebook-f"></i>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://www.twitter.com/"
-              target="_blank"
-              aria-label="share us on twitter"
-            >
-              <i className="fa-brands fa-twitter"></i>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://www.pinterest.com/"
-              target="_blank"
-              aria-label="share us on pinterest"
+              aria-label="share us on linkedin"
             >
               <i className="fa-brands fa-linkedin-in"></i>
             </Link>
-          </li>
-          <li>
-            <Link
-              href="https://www.instagram.com/"
-              target="_blank"
-              aria-label="share us on instagram"
-            >
-              <i className="fa-brands fa-instagram"></i>
-            </Link>
-          </li>
+        </li>
+        <li>
+          <Link
+            href="https://www.instagram.com/decasync_innovations/"
+            target="_blank"
+            aria-label="share us on instagram"
+          >
+            <i className="fa-brands fa-instagram"></i>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="https://www.facebook.com/decasync.innovations"
+            target="_blank"
+            aria-label="share us on facebook"
+          >
+            <i className="fa-brands fa-facebook-f"></i>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="https://x.com/decasync"
+            target="_blank"
+            aria-label="share us on x"
+          >
+            <i className="fa-brands fa-x-twitter"></i>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="https://www.threads.net/@decasync_innovations"
+            target="_blank"
+            aria-label="share us on thread"
+          >
+            <i className="fa-brands fa-threads"></i>
+          </Link>
+        </li>
         </ul>
         <Link href="#scroll-to" className="scroll-to">
           Scroll

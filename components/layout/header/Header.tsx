@@ -94,8 +94,7 @@ const Header = () => {
                   </div>
                   <div className="navbar__options">
                     <Link href="contact-us" className="d-none d-sm-flex">
-                      {/* Let&apos;s Talk */}
-                      Innovation Intact
+                    Let&apos;s Connect
                     </Link>
                     <button
                       className="open-offcanvas-nav"

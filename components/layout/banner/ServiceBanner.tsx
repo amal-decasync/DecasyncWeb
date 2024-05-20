@@ -6,6 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import thumbOne from "@/public/images/service/thumb-one.png";
 import thumbTwo from "@/public/images/service/thumb-two.png";
+import serviceOne from "@/public/images/sample/service4.png";
+import serviceTwo from "@/public/images/sample/service6.png";
 
 const ServiceBanner = () => {
   useEffect(() => {
@@ -53,7 +55,7 @@ const ServiceBanner = () => {
               </h2>
               <p className="text-white cur-lg">
                 Empower your business with sophisticated tech solutions by
-                Itify. From ideation to implementation, with a team of experts
+                DecaSync. From ideation to implementation, with a team of experts
                 right at your fingertips
               </p>
               <div className="mt-60 text-center">
@@ -68,40 +70,31 @@ const ServiceBanner = () => {
         </div>
       </div>
       <ul className="social">
+
         <li>
-          <Link
-            href="https://www.facebook.com/"
-            target="_blank"
-            aria-label="share us on facebook"
-          >
+          <Link href="https://in.linkedin.com/company/decasync-innovations-pvt-ltd" target="_blank" aria-label="share us on facebook">
+            <i className="fa-brands fa-linkedin-in"></i>
+          </Link>
+        </li>
+
+        <li>
+          <Link href="https://www.instagram.com/decasync_innovations/" target="_blank">
+            <i className="fa-brands fa-instagram"></i>
+          </Link>
+        </li>
+        <li>
+          <Link href="https://www.facebook.com/decasync.innovations" target="_blank">
             <i className="fa-brands fa-facebook-f"></i>
           </Link>
         </li>
         <li>
-          <Link
-            href="https://www.twitter.com/"
-            target="_blank"
-            aria-label="share us on twitter"
-          >
-            <i className="fa-brands fa-twitter"></i>
+          <Link href="https://x.com/decasync" target="_blank">
+            <i className="fa-brands fa-x-twitter"></i>
           </Link>
         </li>
         <li>
-          <Link
-            href="https://www.pinterest.com/"
-            target="_blank"
-            aria-label="share us on pinterest"
-          >
-            <i className="fa-brands fa-linkedin-in"></i>
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="https://www.instagram.com/"
-            target="_blank"
-            aria-label="share us on instagram"
-          >
-            <i className="fa-brands fa-instagram"></i>
+          <Link href="https://www.threads.net/@decasync_innovations" target="_blank">
+            <i className="fa-brands fa-threads"></i>
           </Link>
         </li>
       </ul>
@@ -110,10 +103,10 @@ const ServiceBanner = () => {
         <span className="arrow"></span>
       </Link>
       <div className="thumb-one">
-        <Image src={thumbOne} alt="Image" />
+        <Image src={serviceOne} alt="Image" />
       </div>
       <div className="thumb-two">
-        <Image src={thumbTwo} alt="Image" />
+        <Image src={serviceTwo} alt="Image" />
       </div>
     </section>
   );

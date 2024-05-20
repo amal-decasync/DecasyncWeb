@@ -8,16 +8,18 @@ import "swiper/swiper-bundle.css";
 import one from "@/public/images/testimonial/avatar-one.png";
 import two from "@/public/images/testimonial/avatar-two.png";
 import three from "@/public/images/testimonial/avatar-three.png";
-import four from "@/public/images/testimonial/avatar-four.png";
-import five from "@/public/images/testimonial/avatar-five.png";
+// import four from "@/public/images/testimonial/avatar-four.png";
+// import five from "@/public/images/testimonial/avatar-five.png";
+import six from "@/public/images/sample/avatar1.jpg";
+import seven from "@/public/images/sample/avatar2.jpg";
 
 const Testimonial = () => {
   const imageUrls = [
-    { url: "images/testimonial/avatar-one.png" },
-    { url: "images/testimonial/avatar-two.png" },
-    { url: "images/testimonial/avatar-three.png" },
-    { url: "images/testimonial/avatar-four.png" },
-    { url: "images/testimonial/avatar-five.png" },
+    { url: "images/sample/avatar1.jpg" },
+    { url: "images/sample/avatar2.jpg" },
+    { url: "images/sample/avatar1.jpg" },
+    { url: "images/sample/avatar2.jpg" },
+    { url: "images/sample/avatar1.jpg" },
   ];
 
   const [totalSlides, setTotalSlides] = useState(0);
@@ -40,7 +42,7 @@ const Testimonial = () => {
               }
             >
               <h2 className="fw-7 text-secondary mt-8 title-anim">
-                Innovation In Sync:Client Testimonials
+                Client Testimonials
               </h2>
               <div className="tp-testimonial-slider-wrap mt-60">
                 <Swiper
@@ -78,12 +80,12 @@ const Testimonial = () => {
                     <div className="tp-testimonial-single">
                       <div className="tp-testimonial__meta">
                         <div className="thumb">
-                          <Image src={one} alt="Image" />
+                          <Image src={six} alt="Image" />
                         </div>
                         <div className="content">
                           <h5 className="fw-5 text-secondary mt-8">Mathew Peter</h5>
                           <p className="text-xs text-tertiary mb-12">
-                            CEO At BT Grey
+                            CEO at BT Grey
                           </p>
                           <button className="review">
                             <i className="fa-solid fa-star"></i>
@@ -95,7 +97,6 @@ const Testimonial = () => {
                         </div>
                       </div>
                       <blockquote className="text-xl cur-lg mt-40">
-                        <q>
                          &quot;I Came To DecaSync Because Of Their Reputation In The
                           Software Development Space.When We Expanded The Project 
                           To Incorporate Blockchain Not Only Did They Not Flinch,
@@ -104,8 +105,7 @@ const Testimonial = () => {
                           Straight To The Heart Of The Idea On A Micro And Macro Sense.
                           I Have Already Recommended Them Many Times And I Will Continue To Do So.
                           The Members Of DecaSync Have Always Promtly Returned My Calls Or
-                           Emails Irrespective Of The Time.I Have Found Them To Be Consistently Available And Committed To Addressing My Needs. &quot;
-                        </q>
+                          Emails Irrespective Of The Time.I Have Found Them To Be Consistently Available And Committed To Addressing My Needs. &quot;
                       </blockquote>
                     </div>
                   </SwiperSlide>
@@ -113,12 +113,12 @@ const Testimonial = () => {
                     <div className="tp-testimonial-single">
                       <div className="tp-testimonial__meta">
                         <div className="thumb">
-                          <Image src={two} alt="Image" />
+                          <Image src={seven} alt="Image" />
                         </div>
                         <div className="content">
-                          <h5 className="fw-5 text-secondary mt-8">Mathew Peter</h5>
+                          <h5 className="fw-5 text-secondary mt-8">Aneesh Krishna</h5>
                           <p className="text-xs text-tertiary mb-12">
-                            CEO At BT Grey
+                            CEO at Biscon Media
                           </p>
                           <button className="review">
                             <i className="fa-solid fa-star"></i>
@@ -130,15 +130,12 @@ const Testimonial = () => {
                         </div>
                       </div>
                       <blockquote className="text-xl cur-lg mt-40">
-                        &quot;I Came To DecaSync Because Of Their Reputation In The
-                          Software Development Space.When We Expanded The Project 
-                          To Incorporate Blockchain Not Only Did They Not Flinch,
-                          They Got More Enthused.They Have Been Stellar At Every 
-                          Step Of The Way Working Towards Solutions That Worked 
-                          Straight To The Heart Of The Idea On A Micro And Macro Sense.
-                          I Have Already Recommended Them Many Times And I Will Continue To Do So.
-                          The Members Of DecaSync Have Always Promtly Returned My Calls Or
-                           Emails Irrespective Of The Time.I Have Found Them To Be Consistently Available And Committed To Addressing My Needs. &quot;
+                        &quot;DecaSync Innovations proved to be an invaluable partner 
+                          in our digital transformation journey. Their team demonstrated 
+                          exceptional professionalism, delivering high-quality solutions 
+                          that significantly contributed to our business growth. Their ability
+                          to understand our unique challenges and provide tailored solutions sets them apart.
+                          I highly recommend DecaSync for any technology-related projects. &quot;
                       </blockquote>
                     </div>
                   </SwiperSlide>
@@ -146,12 +143,12 @@ const Testimonial = () => {
                     <div className="tp-testimonial-single">
                       <div className="tp-testimonial__meta">
                         <div className="thumb">
-                          <Image src={three} alt="Image" />
+                          <Image src={six} alt="Image" />
                         </div>
                         <div className="content">
-                          <h5 className="fw-5 text-secondary mt-8">Mathew Peter</h5>
+                          <h5 className="fw-5 text-secondary mt-8">Shibu </h5>
                           <p className="text-xs text-tertiary mb-12">
-                            CEO At BT Grey
+                            CEO at 24 News
                           </p>
                           <button className="review">
                             <i className="fa-solid fa-star"></i>
@@ -163,19 +160,16 @@ const Testimonial = () => {
                         </div>
                       </div>
                       <blockquote className="text-xl cur-lg mt-40">
-                        &quot;I Came To DecaSync Because Of Their Reputation In The
-                          Software Development Space.When We Expanded The Project 
-                          To Incorporate Blockchain Not Only Did They Not Flinch,
-                          They Got More Enthused.They Have Been Stellar At Every 
-                          Step Of The Way Working Towards Solutions That Worked 
-                          Straight To The Heart Of The Idea On A Micro And Macro Sense.
-                          I Have Already Recommended Them Many Times And I Will Continue To Do So.
-                          The Members Of DecaSync Have Always Promtly Returned My Calls Or
-                           Emails Irrespective Of The Time.I Have Found Them To Be Consistently Available And Committed To Addressing My Needs. &quot;
+                        &quot;Our experience with DecaSync has been exceptional.
+                        They demonstrated deep technical knowledge and a keen 
+                        understanding of our business objectives. The collaboration
+                        was seamless, and they consistently delivered results beyond
+                        our expectations. Their commitment to excellence and client 
+                        satisfaction is commendable. We look forward to future collaborations with the DecaSync team. &quot;
                       </blockquote>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
+                  {/* <SwiperSlide>
                     <div className="tp-testimonial-single">
                       <div className="tp-testimonial__meta">
                         <div className="thumb">
@@ -240,7 +234,7 @@ const Testimonial = () => {
                            Emails Irrespective Of The Time.I Have Found Them To Be Consistently Available And Committed To Addressing My Needs. &quot;
                       </blockquote>
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </Swiper>
               </div>
               <div className="tp-testimonial-arrow">

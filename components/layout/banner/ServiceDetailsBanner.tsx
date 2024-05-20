@@ -6,6 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import thumbOne from "@/public/images/service/thumb-one.png";
 import thumbTwo from "@/public/images/service/thumb-two.png";
+import one from "@/public/images/sample/ai1.png"
+import two from "@/public/images/sample/ai2.png"
 
 const ServiceDetailsBanner = () => {
   useEffect(() => {
@@ -110,10 +112,10 @@ const ServiceDetailsBanner = () => {
         <span className="arrow"></span>
       </Link>
       <div className="thumb-one">
-        <Image src={thumbOne} alt="Image" />
+        <Image src={two} alt="Image" />
       </div>
       <div className="thumb-two">
-        <Image src={thumbTwo} alt="Image" />
+        <Image src={one} alt="Image" />
       </div>
     </section>
   );

@@ -128,7 +128,7 @@ const Footer = () => {
                       </h5>
                       <p className="text-quinary">
                         <Link
-                          href="https://goo.gl/maps/16KHwiUcctAojuLj8"
+                          href="https://maps.app.goo.gl/NYv7VG2WtRrrUP1L9"
                           target="_blank"
                         >
                         XXI/152 Panadans Corrazone Cochin University P.O Kalamassery,kochi kerala 682022 India
@@ -145,17 +145,16 @@ const Footer = () => {
                     </div>
                     <div className="content">
                       <h5 className="mt-8 fm fw-6 text-white mb-24">Phone</h5>
-                      <p className="text-quinary mb-12">
-                        <Link href="tel:123-456-789">(IND) +91 9037 686 808</Link>
+                      <p className="text-quinary mb-1">
+                        <Link href="tel:+91 9037 686 808">+91 9037 686 808
+                        </Link>
                       </p>
-                      <p className="text-quinary">
-                        <Link href="tel:123-456-789">
-                          (IND) +91 6282 475 079
+                      <p className="text-quinary mb-1">
+                        <Link href="tel:+91 6282 475 079">+91 6282 475 079
                         </Link>
                       </p>
                       <p className="text-quinary">
-                        <Link href="tel:123-456-789">
-                          (IND) +91 8089 208 936
+                        <Link href="tel:+91 8089 208 936">+91 8089 208 936
                         </Link>
                       </p>
                     </div>
@@ -166,18 +165,11 @@ const Footer = () => {
                     <div className="thumb">
                       <Image src={gmail} alt="Image" />
                     </div>
-                    <div className="content">
+                    <div className="content mb-24">
                       <h5 className="mt-8 fm fw-6 text-white mb-24">Email</h5>
-                      <p className="text-quinary mb-12 text-lowercase">
-                        <Link href="mailto:email.@gmail.com">
-                          info@decasync.com
-                        </Link>
+                      <p className="text-quinary text-lowercase mb-24">
+                        <Link href="mailto:info@decasync.co">info@decasync.com</Link>
                       </p>
-                      {/* <p className="text-quinary text-lowercase">
-                        <Link href="mailto:email.@gmail.com">
-                          email.@gmail.com
-                        </Link>
-                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -202,17 +194,20 @@ const Footer = () => {
                 </div>
                 <div className="col-12 col-lg-6">
                   <div className="social justify-content-center justify-content-lg-end">
-                    <Link href="https://www.twitter.com/" target="_blank">
-                      <i className="fa-brands fa-twitter"></i>
+                    <Link href="https://in.linkedin.com/company/decasync-innovations-pvt-ltd" target="_blank">
+                      <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
-                    <Link href="https://www.instagram.com/" target="_blank">
+                    <Link href="https://www.instagram.com/decasync_innovations/" target="_blank">
                       <i className="fa-brands fa-instagram"></i>
                     </Link>
-                    <Link href="https://www.facebook.com/" target="_blank">
-                      <i className="fa-brands fa-facebook-messenger"></i>
+                    <Link href="https://www.facebook.com/decasync.innovations" target="_blank">
+                      <i className="fa-brands fa-facebook-f"></i>
                     </Link>
-                    <Link href="https://www.youtube.com/" target="_blank">
-                      <i className="fa-brands fa-youtube"></i>
+                    <Link href="https://x.com/decasync" target="_blank">
+                      <i className="fa-brands fa-x-twitter"></i>
+                    </Link>
+                    <Link href="https://www.threads.net/@decasync_innovations"target="_blank">
+                      <i className="fa-brands fa-threads"></i>
                     </Link>
                   </div>
                 </div>
