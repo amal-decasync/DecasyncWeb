@@ -8,6 +8,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import thumb from "@/public/images/transform-thumb.png";
 import teamThumb from "@/public/images/team-thumb.png";
+import three from "@/public/images/sample/ai3.png"
 
 const Transform = () => {
   const [totalSlides, setTotalSlides] = useState(0);
@@ -60,7 +61,7 @@ const Transform = () => {
               <div className="parallax-image-wrap">
                 <div className="parallax-image-inner">
                   <Image
-                    src={thumb}
+                    src={three}
                     className="w-100 parallax-image mh-300"
                     alt="Image"
                   />
