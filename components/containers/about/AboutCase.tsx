@@ -18,12 +18,12 @@ const AboutCase = () => {
         <div className="row vertical-column-gap align-items-center">
           <div className="col-12 col-lg-7">
             <div className="tp-lp-title text-center text-lg-start">
-              <h2 className="mt-8 fw-7 text-secondary title-anim">
+              {/* <h2 className="mt-8 fw-7 text-secondary title-anim">
                 Case Studies
-              </h2>
+              </h2> */}
             </div>
           </div>
-          <div className="col-12 col-lg-5">
+          {/* <div className="col-12 col-lg-5">
             <div className="tp-study-arrows d-flex justify-content-center justify-content-lg-end">
               <button className="prev-study" aria-label="previous study">
                 <span className="material-symbols-outlined">west</span>
@@ -32,9 +32,9 @@ const AboutCase = () => {
                 <span className="material-symbols-outlined">east</span>
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="tp-study-slider-wrapper">
               <div className="tp-study-slider-wrap">
@@ -282,36 +282,36 @@ const AboutCase = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="row pt-120 vertical-column-gap-lg">
           <div className="col-12 col-sm-6 col-xl-3">
             <div className="counter__single text-center">
               <h2 className="fw-5 text-secondary mt-8 mb-16">
                 <span className="odometer">
-                  <Counter value={45} />
+                  <Counter value={100} />
                 </span>
-                <span>k</span>
+                <span>+</span>
               </h2>
 
-              <p className="text-tertiary">Projects Completed</p>
+              <p className="text-tertiary">Projects Delivered</p>
             </div>
           </div>
           <div className="col-12 col-sm-6 col-xl-3">
             <div className="counter__single text-center">
               <h2 className="fw-5 text-secondary mt-8 mb-16">
                 <span className="odometer">
-                  <Counter value={25} />
+                  <Counter value={10} />
                 </span>
-                <span>k</span>
+                <span>+</span>
               </h2>
-              <p className="text-tertiary">Happy Clients</p>
+              <p className="text-tertiary">Fullstack Developers</p>
             </div>
           </div>
           <div className="col-12 col-sm-6 col-xl-3">
             <div className="counter__single text-center">
               <h2 className="fw-5 text-secondary mt-8 mb-16">
                 <span className="odometer">
-                  <Counter value={12} />
+                  <Counter value={55} />
                 </span>
                 <span>+</span>
               </h2>
@@ -322,11 +322,11 @@ const AboutCase = () => {
             <div className="counter__single text-center border-0">
               <h2 className="fw-5 text-secondary mt-8 mb-16">
                 <span className="odometer">
-                  <Counter value={70} />
+                  <Counter value={10} />
                 </span>
                 <span>+</span>
               </h2>
-              <p className="text-tertiary">Awards achievement</p>
+              <p className="text-tertiary">AI Solutions</p>
             </div>
           </div>
         </div>

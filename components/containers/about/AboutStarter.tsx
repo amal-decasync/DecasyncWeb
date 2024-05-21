@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import thumb from "@/public/images/start-thumb.png";
+import thumb from "@/public/images/start-thumb.jpg";
 
 const AboutStarter = () => {
   return (
@@ -16,11 +16,10 @@ const AboutStarter = () => {
                       How it all started
                     </h2>
                     <p className="text-white cur-lg">
-                      It began as a dream of three friends to create a workplace
-                      where they would always want to work - with meaningful and
-                      interesting projects, technical challenges to solve and
-                      one where people are the main focus. Year by year the
-                      Itify.
+                      It began as a dream of nine friends to create a workplace
+                      where they would always want to work with meaningful and
+                      interesting projects, technical challenges to solve, and 
+                      a strong focus on people. Year by year, Decasync.
                     </p>
                     <div className="mt-40">
                       <Link
