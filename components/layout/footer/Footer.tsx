@@ -127,12 +127,8 @@ const Footer = () => {
                         Location
                       </h5>
                       <p className="text-quinary">
-                        <Link
-                          href="https://maps.app.goo.gl/NYv7VG2WtRrrUP1L9"
-                          target="_blank"
-                        >
+                        <Link href="https://maps.app.goo.gl/NYv7VG2WtRrrUP1L9"target="_blank">
                         XXI/152 Panadans Corrazone Cochin University P.O Kalamassery,kochi kerala 682022 India
-
                         </Link>
                       </p>
                     </div>
@@ -140,7 +136,7 @@ const Footer = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
                   <div className="footer__inner-single">
-                    <div className="thumb">
+                    <div className="thumb mt-3">
                       <Image src={phone} alt="Image" />
                     </div>
                     <div className="content">
@@ -162,10 +158,10 @@ const Footer = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
                   <div className="footer__inner-single">
-                    <div className="thumb">
+                    <div className="thumb mt-5">
                       <Image src={gmail} alt="Image" />
                     </div>
-                    <div className="content mb-24">
+                    <div className="content">
                       <h5 className="mt-8 fm fw-6 text-white mb-24">Email</h5>
                       <p className="text-quinary text-lowercase mb-24">
                         <Link href="mailto:info@decasync.co">info@decasync.com</Link>
