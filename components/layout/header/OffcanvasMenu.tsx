@@ -45,7 +45,7 @@ const OffcanvasMenu = ({ isOffcanvasOpen, isActive, handleClick }: any) => {
             <div className="logo">
               <Link href="/" className="logo-img">
                 <Image src={logoLight} priority  style={{ width: '100px', height: '50px', objectFit: 'contain' }} alt="Image" title="Logo" />
-              </Link> DECASYNC INNOVATIONS
+              </Link>
             </div>
             <button
               aria-label="close offcanvas menu"
@@ -116,42 +116,32 @@ const OffcanvasMenu = ({ isOffcanvasOpen, isActive, handleClick }: any) => {
           </div>
         </nav>
         <ul className=" social nav-fade">
-          <li>
-            <Link
-              href="https://www.facebook.com/"
-              target="_blank"
-              aria-label="share us on facebook"
-            >
-              <i className="fa-brands fa-facebook-f"></i>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://www.twitter.com/"
-              target="_blank"
-              aria-label="share us on twitter"
-            >
-              <i className="fa-brands fa-twitter"></i>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://www.pinterest.com/"
-              target="_blank"
-              aria-label="share us on pinterest"
-            >
-              <i className="fa-brands fa-linkedin-in"></i>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://www.instagram.com/"
-              target="_blank"
-              aria-label="share us on instagram"
-            >
-              <i className="fa-brands fa-instagram"></i>
-            </Link>
-          </li>
+        <li>
+          <Link href="https://in.linkedin.com/company/decasync-innovations-pvt-ltd" target="_blank" aria-label="share us on facebook">
+            <i className="fa-brands fa-linkedin-in"></i>
+          </Link>
+        </li>
+
+        <li>
+          <Link href="https://www.instagram.com/decasync_innovations/" target="_blank">
+            <i className="fa-brands fa-instagram"></i>
+          </Link>
+        </li>
+        <li>
+          <Link href="https://www.facebook.com/decasync.innovations" target="_blank">
+            <i className="fa-brands fa-facebook-f"></i>
+          </Link>
+        </li>
+        <li>
+          <Link href="https://x.com/decasync" target="_blank">
+            <i className="fa-brands fa-x-twitter"></i>
+          </Link>
+        </li>
+        <li>
+          <Link href="https://www.threads.net/@decasync_innovations" target="_blank">
+            <i className="fa-brands fa-threads"></i>
+          </Link>
+        </li>
         </ul>
         <div className="anime">
           <span className="nav-fade"></span>
