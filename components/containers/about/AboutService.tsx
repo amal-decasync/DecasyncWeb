@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import thumb from "@/public/images/service/two.gif";
-import thumbTwo from "@/public/images/service/three.png";
+import thumbTwo from "@/public/images/service/three.gif";
 
 const AboutService = () => {
   return (
