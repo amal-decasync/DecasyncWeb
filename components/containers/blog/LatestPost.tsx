@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "@/public/images/blog/related-one.png";
+import one from "@/public/images/blog/related-one.jpg";
 import two from "@/public/images/blog/related-two.png";
 import three from "@/public/images/blog/related-three.png";
 import four from "@/public/images/blog/related-four.png";
@@ -66,16 +66,16 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in 
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
-                            18 Dec 2022
+                            20 May 2023
                           </p>
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                          <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7198252690131357697" target="_blank" rel="noopener noreferrer">
+                          🚀 Meet the incredible core team behind DecaSync! 🚀
                           </Link>
                         </h5>
                       </div>
@@ -98,7 +98,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
@@ -130,7 +130,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
@@ -162,7 +162,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
@@ -194,7 +194,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
@@ -226,7 +226,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
@@ -258,7 +258,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
@@ -290,7 +290,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
@@ -322,7 +322,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
@@ -354,7 +354,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
@@ -386,7 +386,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
@@ -418,7 +418,7 @@ const LatestPost = () => {
                       <div className="content">
                         <div className="tp-lp-post__meta mb-24 mt-8">
                           <p className="author text-xs text-tertiary">
-                            Denial Lio
+                            Linked in
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">

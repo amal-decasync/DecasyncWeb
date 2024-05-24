@@ -10,16 +10,14 @@ import two from "@/public/images/testimonial/avatar-two.png";
 import three from "@/public/images/testimonial/avatar-three.png";
 // import four from "@/public/images/testimonial/avatar-four.png";
 // import five from "@/public/images/testimonial/avatar-five.png";
-import six from "@/public/images/sample/avatar1.jpg";
-import seven from "@/public/images/sample/avatar2.jpg";
+import six from "@/public/images/sample/avatar2.jpg";
+import seven from "@/public/images/sample/avatar1.png";
 
 const Testimonial = () => {
   const imageUrls = [
-    { url: "images/sample/avatar1.jpg" },
-    { url: "images/sample/avatar2.jpg" },
-    { url: "images/sample/avatar1.jpg" },
-    { url: "images/sample/avatar2.jpg" },
-    { url: "images/sample/avatar1.jpg" },
+    { url: "images/sample/avatar1.png" },
+    { url: "images/sample/avatar1.png" },
+    { url: "images/sample/avatar1.png" },
   ];
 
   const [totalSlides, setTotalSlides] = useState(0);
@@ -80,7 +78,7 @@ const Testimonial = () => {
                     <div className="tp-testimonial-single">
                       <div className="tp-testimonial__meta">
                         <div className="thumb">
-                          <Image src={six} alt="Image" />
+                          <Image src={seven} alt="Image" />
                         </div>
                         <div className="content">
                           <h5 className="fw-5 text-secondary mt-8">Mathew Peter</h5>
@@ -143,7 +141,7 @@ const Testimonial = () => {
                     <div className="tp-testimonial-single">
                       <div className="tp-testimonial__meta">
                         <div className="thumb">
-                          <Image src={six} alt="Image" />
+                          <Image src={seven} alt="Image" />
                         </div>
                         <div className="content">
                           <h5 className="fw-5 text-secondary mt-8">Shibu </h5>
