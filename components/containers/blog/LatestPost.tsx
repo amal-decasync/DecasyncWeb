@@ -5,8 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import one from "@/public/images/blog/related-one.jpg";
-import two from "@/public/images/blog/related-two.png";
-import three from "@/public/images/blog/related-three.png";
+import two from "@/public/images/blog/related-two.jpg";
+import three from "@/public/images/blog/related-three.jpg";
 import four from "@/public/images/blog/related-four.png";
 
 const LatestPost = () => {
@@ -75,7 +75,7 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7198252690131357697" target="_blank" rel="noopener noreferrer">
-                          🚀 Meet the incredible core team behind DecaSync! 🚀
+                          🚀 Meet Decasync's Exceptional Team Crafting Tomorrow's Innovations!🚀
                           </Link>
                         </h5>
                       </div>
@@ -102,12 +102,12 @@ const LatestPost = () => {
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
-                            18 Dec 2022
+                            27 Mar 2024
                           </p>
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                          <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7178711720113188864" target="_blank" rel="noopener noreferrer">
+                            🎉 We had an amazing time celebrating Holi at DecaSync 🌈
                           </Link>
                         </h5>
                       </div>
@@ -134,300 +134,12 @@ const LatestPost = () => {
                           </p>
                           <span></span>
                           <p className="date text-xs text-tertiary">
-                            18 Dec 2022
+                            18 Apr 2024
                           </p>
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
-                          </Link>
-                        </h5>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="tp-lp-slider__single topy-tilt">
-                      <div className="thumb mb-24">
-                        <Link
-                          href="blog-single"
-                          className="w-100 overflow-hidden"
-                        >
-                          <Image
-                            src={four}
-                            className="w-100 mh-220"
-                            alt="Image"
-                          />
-                        </Link>
-                      </div>
-                      <div className="content">
-                        <div className="tp-lp-post__meta mb-24 mt-8">
-                          <p className="author text-xs text-tertiary">
-                            Linked in
-                          </p>
-                          <span></span>
-                          <p className="date text-xs text-tertiary">
-                            18 Dec 2022
-                          </p>
-                        </div>
-                        <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
-                          </Link>
-                        </h5>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="tp-lp-slider__single topy-tilt">
-                      <div className="thumb mb-24">
-                        <Link
-                          href="blog-single"
-                          className="w-100 overflow-hidden"
-                        >
-                          <Image
-                            src={one}
-                            className="w-100 mh-220"
-                            alt="Image"
-                          />
-                        </Link>
-                      </div>
-                      <div className="content">
-                        <div className="tp-lp-post__meta mb-24 mt-8">
-                          <p className="author text-xs text-tertiary">
-                            Linked in
-                          </p>
-                          <span></span>
-                          <p className="date text-xs text-tertiary">
-                            18 Dec 2022
-                          </p>
-                        </div>
-                        <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
-                          </Link>
-                        </h5>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="tp-lp-slider__single topy-tilt">
-                      <div className="thumb mb-24">
-                        <Link
-                          href="blog-single"
-                          className="w-100 overflow-hidden"
-                        >
-                          <Image
-                            src={two}
-                            className="w-100 mh-220"
-                            alt="Image"
-                          />
-                        </Link>
-                      </div>
-                      <div className="content">
-                        <div className="tp-lp-post__meta mb-24 mt-8">
-                          <p className="author text-xs text-tertiary">
-                            Linked in
-                          </p>
-                          <span></span>
-                          <p className="date text-xs text-tertiary">
-                            18 Dec 2022
-                          </p>
-                        </div>
-                        <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
-                          </Link>
-                        </h5>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="tp-lp-slider__single topy-tilt">
-                      <div className="thumb mb-24">
-                        <Link
-                          href="blog-single"
-                          className="w-100 overflow-hidden"
-                        >
-                          <Image
-                            src={three}
-                            className="w-100 mh-220"
-                            alt="Image"
-                          />
-                        </Link>
-                      </div>
-                      <div className="content">
-                        <div className="tp-lp-post__meta mb-24 mt-8">
-                          <p className="author text-xs text-tertiary">
-                            Linked in
-                          </p>
-                          <span></span>
-                          <p className="date text-xs text-tertiary">
-                            18 Dec 2022
-                          </p>
-                        </div>
-                        <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
-                          </Link>
-                        </h5>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="tp-lp-slider__single topy-tilt">
-                      <div className="thumb mb-24">
-                        <Link
-                          href="blog-single"
-                          className="w-100 overflow-hidden"
-                        >
-                          <Image
-                            src={four}
-                            className="w-100 mh-220"
-                            alt="Image"
-                          />
-                        </Link>
-                      </div>
-                      <div className="content">
-                        <div className="tp-lp-post__meta mb-24 mt-8">
-                          <p className="author text-xs text-tertiary">
-                            Linked in
-                          </p>
-                          <span></span>
-                          <p className="date text-xs text-tertiary">
-                            18 Dec 2022
-                          </p>
-                        </div>
-                        <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
-                          </Link>
-                        </h5>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="tp-lp-slider__single topy-tilt">
-                      <div className="thumb mb-24">
-                        <Link
-                          href="blog-single"
-                          className="w-100 overflow-hidden"
-                        >
-                          <Image
-                            src={one}
-                            className="w-100 mh-220"
-                            alt="Image"
-                          />
-                        </Link>
-                      </div>
-                      <div className="content">
-                        <div className="tp-lp-post__meta mb-24 mt-8">
-                          <p className="author text-xs text-tertiary">
-                            Linked in
-                          </p>
-                          <span></span>
-                          <p className="date text-xs text-tertiary">
-                            18 Dec 2022
-                          </p>
-                        </div>
-                        <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
-                          </Link>
-                        </h5>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="tp-lp-slider__single topy-tilt">
-                      <div className="thumb mb-24">
-                        <Link
-                          href="blog-single"
-                          className="w-100 overflow-hidden"
-                        >
-                          <Image
-                            src={two}
-                            className="w-100 mh-220"
-                            alt="Image"
-                          />
-                        </Link>
-                      </div>
-                      <div className="content">
-                        <div className="tp-lp-post__meta mb-24 mt-8">
-                          <p className="author text-xs text-tertiary">
-                            Linked in
-                          </p>
-                          <span></span>
-                          <p className="date text-xs text-tertiary">
-                            18 Dec 2022
-                          </p>
-                        </div>
-                        <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
-                          </Link>
-                        </h5>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="tp-lp-slider__single topy-tilt">
-                      <div className="thumb mb-24">
-                        <Link
-                          href="blog-single"
-                          className="w-100 overflow-hidden"
-                        >
-                          <Image
-                            src={three}
-                            className="w-100 mh-220"
-                            alt="Image"
-                          />
-                        </Link>
-                      </div>
-                      <div className="content">
-                        <div className="tp-lp-post__meta mb-24 mt-8">
-                          <p className="author text-xs text-tertiary">
-                            Linked in
-                          </p>
-                          <span></span>
-                          <p className="date text-xs text-tertiary">
-                            18 Dec 2022
-                          </p>
-                        </div>
-                        <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
-                          </Link>
-                        </h5>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="tp-lp-slider__single topy-tilt">
-                      <div className="thumb mb-24">
-                        <Link
-                          href="blog-single"
-                          className="w-100 overflow-hidden"
-                        >
-                          <Image
-                            src={four}
-                            className="w-100 mh-220"
-                            alt="Image"
-                          />
-                        </Link>
-                      </div>
-                      <div className="content">
-                        <div className="tp-lp-post__meta mb-24 mt-8">
-                          <p className="author text-xs text-tertiary">
-                            Linked in
-                          </p>
-                          <span></span>
-                          <p className="date text-xs text-tertiary">
-                            18 Dec 2022
-                          </p>
-                        </div>
-                        <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                          <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7175890486757396480" target="_blank" rel="noopener noreferrer">
+                          🏃‍♂️ Celebrating Our Experience at GTECH MARATHON 2024 
                           </Link>
                         </h5>
                       </div>
