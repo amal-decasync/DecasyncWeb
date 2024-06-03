@@ -86,24 +86,18 @@ const Footer = () => {
                 <Link href="about-us">About Us</Link>
               </li>
               <li>
-                <Link href="services">It Service</Link>
+                <Link href="services">Services</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="career">Career</Link>
               </li>
               <li>
                 <Link href="case-study">Case Studies</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="col-12 col-lg-2">
             <ul className="mt-8">
-              <li>
-                <Link href="case-study">Resources</Link>
-              </li>
-              <li>
-                <Link href="services">Our Services</Link>
-              </li>
               <li>
                 <Link href="blog">Blog</Link>
               </li>

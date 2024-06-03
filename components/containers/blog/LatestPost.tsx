@@ -7,7 +7,7 @@ import "swiper/swiper-bundle.css";
 import one from "@/public/images/blog/related-one.jpg";
 import two from "@/public/images/blog/related-two.jpg";
 import three from "@/public/images/blog/related-three.jpg";
-import four from "@/public/images/blog/related-four.png";
+import four from "@/public/images/blog/related-four.jpg";
 
 const LatestPost = () => {
   return (
@@ -57,38 +57,6 @@ const LatestPost = () => {
                           className="w-100 overflow-hidden"
                         >
                           <Image
-                            src={one}
-                            className="w-100 mh-220"
-                            alt="Image"
-                          />
-                        </Link>
-                      </div>
-                      <div className="content">
-                        <div className="tp-lp-post__meta mb-24 mt-8">
-                          <p className="author text-xs text-tertiary">
-                            Linked in 
-                          </p>
-                          <span></span>
-                          <p className="date text-xs text-tertiary">
-                            20 May 2023
-                          </p>
-                        </div>
-                        <h5 className="mt-8 fw-5 text-secondary">
-                          <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7198252690131357697" target="_blank" rel="noopener noreferrer">
-                          🚀 Meet Decasync's Exceptional Team Crafting Tomorrow's Innovations!🚀
-                          </Link>
-                        </h5>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="tp-lp-slider__single topy-tilt">
-                      <div className="thumb mb-24">
-                        <Link
-                          href="blog-single"
-                          className="w-100 overflow-hidden"
-                        >
-                          <Image
                             src={two}
                             className="w-100 mh-220"
                             alt="Image"
@@ -107,7 +75,7 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7178711720113188864" target="_blank" rel="noopener noreferrer">
-                            🎉 We had an amazing time celebrating Holi at DecaSync 🌈
+                          🎉 We had an amazing time celebrating Holi at DecaSync 🌈
                           </Link>
                         </h5>
                       </div>
@@ -140,6 +108,70 @@ const LatestPost = () => {
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7175890486757396480" target="_blank" rel="noopener noreferrer">
                           🏃‍♂️ Celebrating Our Experience at GTECH MARATHON 2024 
+                          </Link>
+                        </h5>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="tp-lp-slider__single topy-tilt">
+                      <div className="thumb mb-24">
+                        <Link
+                          href="blog-single"
+                          className="w-100 overflow-hidden"
+                        >
+                          <Image
+                            src={four}
+                            className="w-100 mh-220"
+                            alt="Image"
+                          />
+                        </Link>
+                      </div>
+                      <div className="content">
+                        <div className="tp-lp-post__meta mb-24 mt-8">
+                          <p className="author text-xs text-tertiary">
+                            Linked in
+                          </p>
+                          <span></span>
+                          <p className="date text-xs text-tertiary">
+                            25 Apr 2024
+                          </p>
+                        </div>
+                        <h5 className="mt-8 fw-5 text-secondary">
+                          <Link href="https://www.linkedin.com/feed/update/urn:li:share:7189218000644837376/?actorCompanyId=100531138" target="_blank" rel="noopener noreferrer">
+                          Let's embrace AI as a catalyst for innovation and learning in the tech industry! 💻✨
+                          </Link>
+                        </h5>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="tp-lp-slider__single topy-tilt">
+                      <div className="thumb mb-24">
+                        <Link
+                          href="blog-single"
+                          className="w-100 overflow-hidden"
+                        >
+                          <Image
+                            src={one}
+                            className="w-100 mh-220"
+                            alt="Image"
+                          />
+                        </Link>
+                      </div>
+                      <div className="content">
+                        <div className="tp-lp-post__meta mb-24 mt-8">
+                          <p className="author text-xs text-tertiary">
+                            Linked in 
+                          </p>
+                          <span></span>
+                          <p className="date text-xs text-tertiary">
+                            20 May 2023
+                          </p>
+                        </div>
+                        <h5 className="mt-8 fw-5 text-secondary">
+                          <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7198252690131357697" target="_blank" rel="noopener noreferrer">
+                          🚀 Meet Decasync's Exceptional Team Crafting Tomorrow's Innovations!🚀
                           </Link>
                         </h5>
                       </div>
